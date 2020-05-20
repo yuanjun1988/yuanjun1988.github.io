@@ -34,30 +34,23 @@
       <div id="text">
         <div id="code">
           <font color="#FF0000"> <span class="say">渡的过山河星辰，淌不过你的一笑一颦</span><br>
+            <span class="say"> 啊 啊 啊  啊 啊 啊</span><br>
             <span class="say"> </span><br>
-            <span class="say"> 经丘寻壑不及你，尾生抱柱也无悔意</span><br>
+            <span class="say"> 让我们红尘作伴活得潇潇洒洒  策马奔腾共享人世繁华</span><br>
             <span class="say"></span><br>
-            <span class="say">傻猪猪，我爱你，虽然你说我没有给你一个仪式感的告白</span><br>
+            <span class="say">山无棱，天地合，乃敢与君绝</span><br>
             <span class="say"></span><br>
-            <span class="say">我知道我现在还没有多大的能力可以给你带来什么</span><br>
+            <span class="say"> 天大地大你最大，咚锵咚锵咚咚锵</span><br>
             <span class="say"></span><br>
-            <span class="say">但是我会用行动证明一切！</span><br>
-            <span class="say"></span><br>
-            <span class="say">我们会有更好的未来！</span><br>
-            <span class="say"></span><br>
-            <span class="say"> 不要忘记了，我可是下了订单，说好了要养你一辈子的呀</span><br>
-            <span class="say"></span><br>
-            <span class="say"> 我们的路还很长，一起努力走下去，为了我们更好的未来！</span><br>
-            <span class="say"></span><br>
-            <span class="say"></span><br>
-            <span class="say"><span class="space"></span> --- 爱你的猪猪 --- </span> </font>
+            <span class="say">< 啊哈哈哈哈哈/span><br>
+            <span class="say"><span class="space"></span> ---520快乐 乐乐同学--- </span> </font>
           </p>
         </div>
       </div>
-      <div id="clock-box"> <span class="STYLE1"></span>
+      /* <div id="clock-box"> <span class="STYLE1"></span>
         <font color="#ff5e04">可爱的小猪猪，我喜欢你</font> <span class="STYLE1">已经是……</span>
         <div id="clock"></div>
-      </div>
+      </div> */
       <canvas id="canvas" width="1100" height="680"></canvas>
     </div>
   </div>
@@ -191,15 +184,10 @@
       }));
 
       var textAnimate = eval(Jscex.compile("async", function () {
-        var together = new Date();
-        together.setFullYear(2020, 2, 27); 			//时间年月日
-        together.setHours(16);						//小时	
-        together.setMinutes(53);					//分钟
-        together.setSeconds(0);					//秒前一位
-        together.setMilliseconds(2);				//秒第二位
+      
 
         $("#code").show().typewriter();
-        $("#clock-box").fadeIn(500);
+        /* $("#clock-box").fadeIn(500); */
         while (true) {
           timeElapse(together);
           $await(Jscex.Async.sleep(1000));
