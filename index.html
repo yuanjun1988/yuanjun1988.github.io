@@ -1,5 +1,60 @@
-<!DOCTYPE html><html><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1"><meta name=referrer content=no-referrer><title>伯马乐业</title><link href=./static/css/app.0418c1135d3cbcf09dd9e0b0bb253edf.css rel=stylesheet></head><style>body{
-      margin: 0;
-      height: 100%;
-      line-height:1;
-    }</style><body><div id=app></div><script type=text/javascript src=./static/js/manifest.d8a276b46f18424d4982.js></script><script type=text/javascript src=./static/js/vendor.6fd395be8ea2da410b5e.js></script><script type=text/javascript src=./static/js/app.40112e228284ccf98863.js></script></body></html>
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>伯马乐业APP下载</title>
+        <meta name="keywords" content="" />
+        <meta name="description" content="" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+        <meta name="format-detection" content="telephone=no" />
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <meta name="apple-mobile-web-app-status-bar-style" content="black">
+        <meta name="author" content="CSS5, css5.com.cn" />
+        <style>
+        html {
+            width: 100%;
+            height: 100%;
+        }
+        body{font-size:62.5%;font-family:"Microsoft YaHei",Arial; overflow-x:hidden; overflow-y:auto;height: 100%;width: 100%;margin: 0!important;}
+        .viewport{ max-width:640px; min-width:300px; margin:0 auto;}
+        .main-item{ 
+            width: 100%;
+            height: 100%;
+            background: url(http://img.bomaleye.com/20200809154100943_8789) left center no-repeat;
+            background-size: cover;
+            display: flex;
+            justify-content: center;
+        }
+        .download-btn {
+            width:22rem;
+            height:3.2rem;
+            border:1px solid rgba(255,255,255,1);
+            border-radius: .8rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: absolute;
+            bottom: 14.4%;
+            font-size:14px;
+            font-family:PingFang SC;
+            font-weight:500;
+            color:rgba(254,254,254,1);
+        }
+        a {
+            text-decoration: none;
+            color:rgba(254,254,254,1);
+
+        }
+        </style>
+        </head>
+<body>
+    <div class="main-item">
+       
+       <div class="download-btn" webkit-playsinline="true" x-webkit-airplay="true" playsinline="true"> <a href="https://upgrades.bomaleye.com/app-bmly.apk">下载APP，看精彩求职视频</a></div>
+   </div>
+</body>
+</html>
+<script>        //通过window.screen.width获取屏幕的宽度
+    var offWidth = window.screen.width / 30; //这里用宽度/30表示1rem取得的px
+    document.getElementsByTagName("html")[0].style.fontSize = offWidth + 'px'; //把rem的值复制给顶级标签html的font-size
+</script>
